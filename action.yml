@@ -1,11 +1,11 @@
-name: 'Your name here'
+name: 'auto-accessor'
 description: 'Provide a description here'
-author: 'Your name or organization here'
+author: 'Debbl'
 inputs:
-  milliseconds: # change this
+  url:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'Request url'
+    default: ''
 runs:
   using: 'node16'
   main: 'dist/index.js'

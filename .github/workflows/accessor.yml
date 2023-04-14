@@ -1,0 +1,14 @@
+name: Accessor-test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  accessor-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@3
+
+      - name: test
+        uses: ./
